@@ -25,7 +25,6 @@ public class StaticInner {
 			System.out.println(c);
 			System.out.println(c=5000);
 			System.out.println(c);
-
 		}
 	}
 	
