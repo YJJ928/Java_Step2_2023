@@ -17,7 +17,8 @@ class Outter2{
 				System.out.println(num);
 			}
 		}; //return
-	} //Runnable	
+		
+	} //Runnable 
 	
 	
 	//방법1

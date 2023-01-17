@@ -23,9 +23,9 @@ public class LocalInner {
 		i.getData();
 	} // innerTest(int n) method
 	
-	public static void main(String[] args) {//main
+	public static void main(String[] args) {
 		LocalInner outer = new LocalInner();
 		outer.innerTest(0);
 		
-	}
+	} //main
 }
