@@ -6,7 +6,8 @@ public class EqualTest {
 		
 		//String Class는 이미 toString으로 재정의 되어있다.
 		String str1 = new String("test");
-		String str2 = new String("test");
+		String str2 = str1;
+		String str3 = new String("test");
 		
 		Student studentLee = new Student(100, "ㅇㅇㅇ");
 		Student studentLee2 = studentLee; //String str = "자바";
@@ -54,10 +55,10 @@ public class EqualTest {
 		//hashcode가 재정의 되어있음.
 		System.out.println("---String클래스의 실제값 출력---");
 		System.out.println("str1의 hashCode: "+str1.hashCode());
-		System.out.println("str2의 hashCode: "+str2.hashCode());
+		System.out.println("str3의 hashCode: "+str3.hashCode());
 		System.out.println();
 		System.out.println("str1의 hashCode: "+System.identityHashCode(str1));
-		System.out.println("str2의 hashCode: "+System.identityHashCode(str2));
+		System.out.println("str3의 hashCode: "+System.identityHashCode(str3));
 		
 		
 		

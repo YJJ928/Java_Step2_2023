@@ -17,10 +17,10 @@ public class LocalInner {
 				System.out.println("int c: "+c);
 			}
 		} // class Inner
-		//함수 내부에 있는 클래스라고 해도 함수 호출시 결과 나오지 않음
-		//객체를 만들어서 사용해야 함..
 		Inner i = new Inner();
 		i.getData();
+		//함수 내부에 있는 클래스라고 해도 함수 호출시 결과 나오지 않음
+		//객체를 만들어서 사용해야 함..
 	} // innerTest(int n) method
 	
 	

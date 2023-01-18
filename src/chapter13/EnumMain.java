@@ -17,15 +17,17 @@ public class EnumMain {
 			Item pause = Item.Pause; //Pause 1 이 넘어왔다....
 			Item exit = Item.Exit; //Exit 2 이 넘어왔다....
 			
-			if (n == start.ordinal()) {//n == 0 
+			if (n == start.ordinal()) { //n == 0 
 				System.out.println("게임을 시작");
 			} else if (n == pause.ordinal()) { //n==1
 				System.out.println("일시정지");
 			} else {
 				System.out.println("종료");
 				return; //if 문 빠져나감 // break는 멈춤이면 return은 if종료해서 빠져나감
-			}
-		}
-	}	
+			} // if
+			
+		} // while
+		
+	} // main
 
-}
+} // class EnumMain

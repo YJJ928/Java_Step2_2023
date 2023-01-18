@@ -21,13 +21,12 @@ public class WrapperTest {
 		}
 		
 		//isDigit: 숫자인지판단
-		
 		if(Character.isDigit(ch)) {
 			System.out.println(ch+"는 숫자입니다.");
 		} else { 
 			System.out.println(ch+"는 문자입니다.");
 		}
 		
-	}
+	} // main
 
-}
+} // class WrapperTest

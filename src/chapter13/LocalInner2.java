@@ -28,8 +28,10 @@ class Outter{
 		} // class MyRunnable
 		
 		return new MyRunnable();
-	}
-}
+		
+	} // Runnable getRunnable()
+	
+} // class Outter
 
 public class LocalInner2 {
 	
@@ -39,6 +41,6 @@ public class LocalInner2 {
 		
 		runner.run();
 			
-	}
+	} // class LocalInner2
 
 }

@@ -8,7 +8,7 @@ public class Key {
 	
 	public Key(int number) {
 		this.number = number;
-	}
+	} // Key method()
 
 	@Override
 	public boolean equals(Object obj) {
@@ -20,13 +20,13 @@ public class Key {
 			} 
 		}
 		return false;
-	}
+	} // @Override
 	
 	@Override
 	public int hashCode() {
 //		return super.hashCode(); //원래 heap 메모리 16진수 주소 반환
 		return number; //원래 heap 메모리 16진수 주소 반환..?
-	}
+	} // @Override
 	
 
-}
+} // class Key

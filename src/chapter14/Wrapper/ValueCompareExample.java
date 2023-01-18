@@ -25,5 +25,7 @@ public class ValueCompareExample {
 		//내부 
 		System.out.println("equals: "+obj3.equals(obj4));
 		//내부
+		
+		
 	}
 }

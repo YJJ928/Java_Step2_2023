@@ -7,19 +7,18 @@ class Book{
 	String author;
 	
 	public Book(String title, String author) {
-//		super();
 		this.title = title;
 		this.author = author;
-	}
+	} // Constructor
 	
 	//String 처리해서 본다!//String 문자열로 출력해주는 toString 재정의.
 	@Override
 	public String toString() { // 메소드 이름 못바꿈...!
 //		return super.toString();
 		return title+", "+author;
-	}
+	} // @Override
 	
-}
+} // class Book
 
 public class ToStringEx1 {
 	
@@ -38,12 +37,6 @@ public class ToStringEx1 {
 		String str = new String("test");
 		System.out.println(str);
 		
-		
-		
-		
-		
-		
-		
-	}
+	} // main
 
-}
+} // class ToStringEx1
