@@ -22,7 +22,9 @@ public class MemberArrayListMain {
 		
 		memberArrayList.MemberShowAll();
 		
-
+		Member memberyy = new Member(1003, "박시원");
+		memberArrayList.MemberAdd(memberyy);
+		memberArrayList.MemberShowAll();
 	}
 
 }

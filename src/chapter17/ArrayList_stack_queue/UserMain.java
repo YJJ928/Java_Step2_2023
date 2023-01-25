@@ -24,7 +24,7 @@ public class UserMain {
 			}
 			
 			//중복된 아이디가 아니라면 pwd 입력
-//			UserInfo만 들어갈 수 있는 가방에
+//			UserInfo만 들어갈 수 있는 가방에+
 			
 			System.out.print("패스워드를 입력하세요 : ");
 			Scanner sc2 = new Scanner(System.in);
